@@ -10,14 +10,29 @@ font-size:medium;
 .direction:hover{color:rgb(227, 166, 26);
 background-color:rgb(59, 21, 53);
 }
-.lane{color:rgb(147,160,76);
+.luke{color:rgb(147,160,76);
 font-family:'Courier New',Courier,monospace;
 font-size:17;
 }
-.bauer{color:rgb(60,50,203);
+.luke:hover{
+    color: bisque;
+    text-shadow: 2px 2px;
+    filter:blur(0.2px);
+    border-style: dashed;
+    border-left: 5px solid rgb(74, 154, 163);
+}
+.revenue{color:rgb(60,50,203);
 font-family:'Courier New',Courier,monospace;
 font-size:17;
 }
+.revenue:hover{
+    color: rgb(75, 163, 41);
+    text-shadow: 2px 2px;
+    filter:blur(0.2px);
+    border-style: dashed;
+    border-left: 5px solid rgb(127, 74, 163);
+}
+
 tr:nth-child(even){
     background-color:aqua;
     color:rgb(81, 86, 10);
@@ -34,4 +49,23 @@ th{
     text-align:left;
     background-color:rgb(81, 86, 10);
     color:rgb(60,50,203);
+}
+
+ul.navbar-horizontal{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+}
+ul.navbar-horizontal li{
+    float:left;
+    color:black;
+    background-color: aquamarine;
+}
+ul.navbar-horizontal a{
+    display:block;
+    padding:6px
+}
+ul.navbar-horizontal a:hover{
+    background-color: blue;
+    color:black
 }
