@@ -18,3 +18,20 @@ font-size:17;
 font-family:'Courier New',Courier,monospace;
 font-size:17;
 }
+tr:nth-child(even){
+    background-color:aqua;
+    color:rgb(81, 86, 10);
+}
+td{border:2px;
+padding:8px;
+text-align:left;
+}
+table{margin:9px;
+}
+th{
+    padding-bottom:12px;
+    padding-top:12px;
+    text-align:left;
+    background-color:rgb(81, 86, 10);
+    color:rgb(60,50,203);
+}
