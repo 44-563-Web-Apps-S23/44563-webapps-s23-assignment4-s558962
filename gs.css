@@ -1,0 +1,20 @@
+.direction{color:black;
+font-family:'Times New Roman','Times New Roman', Times, serif,monospace;
+font-size:medium;
+background-color:beige;
+}
+.speech{color:black;
+font-family:'Courier New',Courier,monospace;
+font-size:medium;
+}
+.direction:hover{color:rgb(227, 166, 26);
+background-color:rgb(59, 21, 53);
+}
+.lane{color:rgb(147,160,76);
+font-family:'Courier New',Courier,monospace;
+font-size:17;
+}
+.bauer{color:rgb(60,50,203);
+font-family:'Courier New',Courier,monospace;
+font-size:17;
+}
